@@ -76,7 +76,7 @@ class Vec():
     
     def angle(self, other):
         return math.acos(self.dot(other)/(self.norm()*other.norm()))
-#벡터구현함수입니다.
+#벡터구현함수입니다. __example__로 되어 있는 부분은 실제로 함수가 구현되어 있지만, 제가 직접 바꾸어서 만든 것입니다.
 
 class Vec3(Vec):
     def __init__(self, x=0,y=0,z=0):
