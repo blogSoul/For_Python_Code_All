@@ -6,6 +6,8 @@ total_weight = 0
 total_value = 0
 weight_limit = 0
 stuff_number = 0
+last_stuff_weight = 0
+last_stuff_value = 0
 
 print("여행지에 있는 기념품을 들고 갈건데, 무게에 맞춰서 가방을 싸봅시다!")
 print("물건은 물건번호 : 무게 : 가치 순으로 나타내보겠습니다.")
@@ -25,27 +27,40 @@ while(True):
         total_weight += 5
         total_value += 2
         stuff_number = 0
+        last_stuff_weight = 5
+        last_stuff_value = 2
     elif stuff_number == 2:
         total_weight += 1
         total_value += 3
         stuff_number = 0
+        last_stuff_weight = 1
+        last_stuff_value = 3
     elif stuff_number == 3:
         total_weight += 4
         total_value += 5
         stuff_number = 0
+        last_stuff_weight = 4
+        last_stuff_value = 5
     elif stuff_number == 4:
         total_weight += 3
         total_value += 4
         stuff_number = 0
+        last_stuff_weight = 3
+        last_stuff_value = 4
     elif stuff_number == 5:
         total_weight += 2
         total_value += 2
         stuff_number = 0
+        last_stuff_weight = 2
+        last_stuff_value = 3
     else:
         print("주문 번호를 다시 입력해주세요.")
 
-    if weight_limit <= total_weight:
+    if weight_limit < total_weight:
         print("가방이 가득 찾습니다!")
+        print("마지막에 넣은 물건을 다시 뺍니다!")
+        total_weight -= last_stuff_weight
+        total_value -= last_stuff_value
         break
     else:
         print("현재 가방의 총 무게는 " + str(total_weight) + "입니다.")
