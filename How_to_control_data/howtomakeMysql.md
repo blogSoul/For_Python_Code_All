@@ -1,3 +1,5 @@
+# Mysql에서 database를 만들때 사용하는 코드입니다!
+
 show databases;
 
 CREATE database cook_DB default character SET UTF8;
@@ -15,14 +17,14 @@ CREATE table cook_time
 cook_name varchar(32) PRIMARY KEY not null,
 cook_time varchar(32) not null
 )ENGINE=InnoDB;
-#요리 이름과 요리 시간을 대응시킨 테이블입니다. 10분이하,10분에서30분이하,30분에서1시간이하,1시간이상으로 나누어져 있습니다. 
+#요리 이름과 요리 시간을 대응시킨 테이블입니다. 10분이하,10분에서30분이하,30분에서1시간이하,1시간이상으로 나누어져 있습니다.
 CREATE table cook_difficulty
 (
 cook_name varchar(32) PRIMARY KEY not null,
 cook_difficulty varchar(32) not null
 )ENGINE=InnoDB;
 #요리 이름과 요리 난이도를 대응시킨 테이블입니다. 상,중,하로 나누어져 있습니다.
-CREATE table cook_world 
+CREATE table cook_world
 (
 cook_name varchar(32) PRIMARY KEY not null,
 cook_world varchar(32) not null

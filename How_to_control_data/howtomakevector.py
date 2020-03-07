@@ -80,7 +80,7 @@ class Vec():
 
 class Vec3(Vec):
     def __init__(self, x=0,y=0,z=0):
-        super().__init__(x,y,z)
+        super(Vec3, self).__init__(x,y,z)
     def cross(self, other):
         (a1,b1), (a2,b2), (a3,b3)=zip(self.coord, other.coord)
         return Vec3(a2*b3-a3*b2, a3*b1-b1*b3, a1*b2-b1*a2)
