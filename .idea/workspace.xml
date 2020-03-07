@@ -4,12 +4,6 @@
     <list default="true" id="b2fda025-bdf1-493d-aa9f-188afdc5c4f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_ipynb/CNN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helloworld.py" beforeDir="false" afterPath="$PROJECT_DIR$/Make_Algorithm/Helloworld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recommender Systems.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python_ipynb/Recommender Systems.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bag_on_trip.py" beforeDir="false" afterPath="$PROJECT_DIR$/Make_Algorithm/bag_on_trip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_cafe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Make_Algorithm/book_cafe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Make_Algorithm/cafe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

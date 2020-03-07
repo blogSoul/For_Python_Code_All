@@ -120,4 +120,6 @@ pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/venv,pycharm,jupyternotebooks
 
+venv
+__pycache__
 myvenv
