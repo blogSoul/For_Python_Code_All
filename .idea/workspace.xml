@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fda025-bdf1-493d-aa9f-188afdc5c4f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Databases_project_2018_2학기/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/How_to_control_data/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\com\For_Python_Code_All" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\com\For_Python_Code_All\python_ipynb" />
       <recent name="C:\Users\com\For_Python_Code_All\Make_Algorithm" />
