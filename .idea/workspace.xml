@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2fda025-bdf1-493d-aa9f-188afdc5c4f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Make_sample_module_and_package/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Make_sample_module_and_package/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Make_sample_module_and_package/square2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Make_Algorithm/SWMeastro_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
