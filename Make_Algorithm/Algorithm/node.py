@@ -15,6 +15,7 @@ print(Node.__dict__)
 s1 = Node("a")
 s2 = Node("b")
 # 인스턴스 s1, s2를 Node 클래스로 호출해줍니다.
-
 print(s1.__dict__)
 print(s2.__dict__)
+
+# 인스턴스의 네임스페이스에 해당 이름이 없으면 클래스의 네임스페이스로 이동합니다.
